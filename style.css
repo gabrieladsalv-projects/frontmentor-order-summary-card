@@ -5,6 +5,11 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+body {
+    background: url(/images/pattern-background-desktop.svg), #E1E9Ff;
+    background-repeat: no-repeat, no-repeat;
+}
+
 .card-container-bg {
     display: flex;
     justify-content: center;
@@ -128,6 +133,10 @@
     
 .cancel-button a:hover {
     color: #0066cc;
+}
+
+.attribution {
+    text-align: center;
 }
 
 
